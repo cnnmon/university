@@ -22,7 +22,7 @@ export default function Home() {
       <div className="max-w-4xl mx-auto">
         <h2><b>about</b></h2>
         <p>
-          my final project for fall 2023 <a href="https://classes.berkeley.edu/content/2021-fall-art-173-001-std-001" target="_blank">electrocrafting</a>. a tiny game about being on a spaceship for your school&apos;s winter holiday break. you have a lot of time to think, play video games, and look at stars.
+          my final project for fall 2023 <a href="https://classes.berkeley.edu/content/2021-fall-art-173-001-std-001" target="_blank">electrocrafting</a>. a tiny game about being on a spaceship for holiday break. you have a lot of time to think, play video games, and look at stars.
           <br /><br />
           built with godot 4. drew assets in procreate and animated them in procreate dreams. bg music by <a href="https://www.youtube.com/watch?v=Gcm6gpuxlfY" target="_blank">riddiman</a>.
         </p>

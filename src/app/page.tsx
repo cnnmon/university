@@ -10,13 +10,13 @@ export default function Home() {
             <span key={index}>{text}</span>
           ))}
         </h1>
-        <h2>working title...</h2>
+        <h2>space is big. you are small.</h2>
       </div>
 
       <div className="flex flex-row overflow-x-scroll gap-4">
-        <Image src="/bedroom.gif" width={800} height={200} alt="gif of bedroom" />
-        <Image src="/hallway.gif" width={800} height={200} alt="gif of hallway" />
-        <Image src="/elevator.gif" width={800} height={200} alt="gif of elevator" />
+        <Image src="/bedroom.gif" width={800} height={200} alt="bedroom preview" />
+        <Image src="/hallway.gif" width={800} height={200} alt="hallway preview" />
+        <Image src="/elevator.gif" width={800} height={200} alt="elevator preview" />
       </div>
 
       <div className="max-w-4xl mx-auto">
@@ -26,6 +26,11 @@ export default function Home() {
           <br /><br />
           built with godot 4. drew assets in procreate and animated them in procreate dreams. bg music by <a href="https://www.youtube.com/watch?v=Gcm6gpuxlfY" target="_blank">riddiman</a>.
         </p>
+        <div className="flex justify-center">
+          <Image src="/walk.gif" width={300} height={200} alt="character walk animation" />
+          <Image src="/idle.gif" width={300} height={200} alt="character idle animation" />
+        </div>
+
         <br />
         <h2><b>how to play</b></h2>
         <p>

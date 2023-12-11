@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col pt-32 px-24 gap-5">
+    <main className="flex min-h-screen flex-col p-8 gap-5 md:pt-32 md:px-16">
       <div className="text-center items-center flex flex-col">
         <Image src="/twinkle.gif" width={100} height={200} alt="art of desk" />
         <h1 className="wave">
@@ -26,7 +26,7 @@ export default function Home() {
           <br /><br />
           built with godot 4. drew assets in procreate and animated them in procreate dreams. bg music by <a href="https://www.youtube.com/watch?v=Gcm6gpuxlfY" target="_blank">riddiman</a>.
         </p>
-        <div className="flex justify-center">
+        <div className="md:justify-center md:flex">
           <Image src="/walk.gif" width={300} height={200} alt="character walk animation" />
           <Image src="/idle.gif" width={300} height={200} alt="character idle animation" />
         </div>
